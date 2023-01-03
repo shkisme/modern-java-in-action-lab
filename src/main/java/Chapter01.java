@@ -65,7 +65,7 @@ public class Chapter01 {
         }
         return result;
     }
-    public interface Predicate<T>{
+    public interface Predicate<T> {
         boolean test(T t);
     }
 

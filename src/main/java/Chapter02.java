@@ -111,6 +111,7 @@ public class Chapter02 {
         List<Integer> numbers = new ArrayList<>();
         List<Integer> evenNumbers = filter(numbers, integer -> integer % 2 == 0);
     }
+    // 퀴즈 2-2
     public static class MeaningOfThis{
         public final int value = 4;
         public void doIt(){
