@@ -7,6 +7,8 @@ public class Transaction {
   private final int value;
   private final int year;
 
+  private Currency currency;
+
   public Transaction(Trader trader, int year, int value) {
     this.trader = trader;
     this.value = value;
@@ -23,5 +25,9 @@ public class Transaction {
 
   public int getYear() {
     return year;
+  }
+
+  public Currency getCurrency() {
+    return currency;
   }
 }
